@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// import Coordenadas from './components/newComponents';
+// import Coordenadas from './components/stateLessComponent';
+// import MiFuncion from './components/newStateLess';
+// import Coords from './components/coordenadas';
+import Coords from './components/newCoordenadasUseEffect';
+// import Multiplicar from './components/miComponente';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// const misDatos = {
+//     id: 1,
+//     datos: 'mis datos',
+//     otro: []
+// }
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(<Coords/>, document.getElementById('root'));
